@@ -67,6 +67,7 @@ a {
 .images {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 40px;
     margin-bottom: 50px;
 }
@@ -74,9 +75,11 @@ a {
     height: 150px;
     width: 150px;
     border-radius: 10px;
+    border: 2px solid black;
 }
 
 .images .img-text {
+    width: 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -85,7 +88,6 @@ a {
 
 .img-text p {
     text-align: center;
-    padding: 0 50px;
 }
 
 .quote {
