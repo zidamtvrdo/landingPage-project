@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+}
+.nav, .header, .action, .images {
+    padding: 0 300px;
+}
+
+.nav, .header, .footer {
+    background-color: #1F2937;
+}
+
+.nav h2, .header h1, .modal-text p, .footer p, button {
+    color: #F9FAF8;
+}
+.header h1 {
+    font-weight: 900;
+    font-size: 48px;
+}
+
+li a, .header p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+ul {
+    display: flex;
+    gap: 15px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.info {
+    padding: 30px;
+    text-align: center;
+}
+
+.wrap {
+    display: flex;
+    flex: 1;
+    padding: 70px 0;
+}
+
+.left-header {
+    margin-right: 30px;
+    align-self: center;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+.images img {
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.images .img-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-text p {
+    text-align: center;
+    padding: 0 50px;
+}
+
+.quote {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+}
+
+.quote p {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+#author {
+    align-self: flex-end;
+    margin-right: 50px;
+}
+
+.action-wrap{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+    background-color: #3882F6;
+    border-radius: 10px;
+    flex: 1;
+    padding: 30px;
+}
+
+
+button {
+    padding: 7px;
+    background-color: #3882F6;
+    border-radius: 5px;
+}
+
+.left-header p {
+    padding: 10px 0;
+}
+.action button {
+    align-self: center;
+    border: 1px solid #F9FAF8;
+}
+
+.left-header button {
+    border: 1px solid #3882F6;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+}
+
+.modal-text .cta-text {
+    font-weight: 800;
+    margin-bottom: 5px;
+}
